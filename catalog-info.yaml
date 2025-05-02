@@ -1,14 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-sample-service
-  description: A sample microservice
-  annotations:
-    github.com/project-slug: monikamorla46/backstage_test
+  name: example-service
+  description: Example service from GitHub
 spec:
   type: service
-  owner: monikamorla46@gmail.com
-  lifecycle: experimental
+  lifecycle: production
+  owner: user:MonikaMorla
+
 
 
 
